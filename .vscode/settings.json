@@ -1,5 +1,23 @@
 {
     "files.watcherExclude": {
-        "build/**": true
+        "**/.vscode/bitbake-build/**": true,
+        "**/build/**": true,
+        "**/meta-openembedded/**": true,
+        "**/meta-xilinx/**": true,
+        "**/meta-xilinx-tools/**": true,
+        "**/cache/**": true,
+        "**/tmp/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/.vscode/bitbake-build/**": true,
+        "**/build/**": true,
+        "**/meta-openembedded/**": true,
+        "**/meta-xilinx/**": true,
+        "**/meta-xilinx-tools/**": true,
+        "**/cache/**": true,
+        "**/tmp/**": true
     }
 }
